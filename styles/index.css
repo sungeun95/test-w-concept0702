@@ -1,0 +1,101 @@
+main {width: 100%;}
+main section{
+    max-width: 1200px; min-width: 320px;
+    margin: 0 auto;padding: 75px 0; 
+}
+main section .main_all{
+    max-width: 1200px; min-width: 320px; 
+}
+main section .main_all .main_top{
+    width: 100%; margin-bottom: 60px;
+}
+main section .main_all .main_top h1{}
+main section .main_all #title{
+    font-size: 1.25rem; font-weight: 600; margin-bottom: 11px;
+    
+}/* 제목 공통 */
+main section .main_all .main_top .main_top_product{
+    display: flex; flex-flow: row nowrap; width: 100%;
+    justify-content:space-between;
+}/* 상품부모 */
+main section .main_all .main_top .main_top_product .main_left{
+    position: relative; width: max-content;
+}
+main section .main_all .main_top .main_top_product .main_left a{}
+main section .main_all .main_top .main_top_product .main_left a:last-child{
+    position: absolute; top: 20px; right: 18px;
+}/* 하트 */
+main section .main_all .main_top .main_top_product .main_left a img{}
+main section .main_all .main_top .main_top_product .main_right{
+    margin-left: 40px;
+}
+main section .main_all .main_top .main_top_product .main_right .product{
+    width: max-content; margin-top: 135px;
+}
+main section .main_all .main_top .main_top_product .main_right .main_text{}
+main section .main_all .main_top .main_top_product .main_right .main_text h2{
+    font-size: 1.5rem; font-weight: 600; margin-bottom: 9px;
+}
+main section .main_all .main_top .main_top_product .main_right .main_text p{
+    font-size: 0.875rem;
+}
+/* ===================================== 상품 공통 시작*/
+main section .main_all .product{
+    display: flex;
+}
+main section .main_all .product .main_product{
+    max-width: 195px; min-width: 50px;
+}
+main section .main_all .product .main_product>a{}
+main section .main_all .product .main_product>a img{width: 100%;margin-bottom: 15px;}
+main section .main_all .product .main_product .product_br{
+    display: flex; justify-content:space-between;
+}
+main section .main_all .product .main_product .product_br a{}
+main section .main_all .product .main_product .product_br a p{
+    font-size: 0.825rem; font-weight: 500;
+}
+main section .main_all .product .main_product .product_br a img{width: 100%;}
+main section .main_all .product .main_product>p{
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    width: 100%;
+    font-size: 0.825rem; color: #aaa;
+}
+main section .main_all .product .main_product .product_sp{
+    display: flex;margin-top: 5px;
+}
+main section .main_all .product .main_product .product_sp p:first-child{
+    color: #f00; font-size: 0.825rem; font-weight: 700;
+}
+main section .main_all .product .main_product .product_sp p:last-child{
+    font-size: 0.825rem; font-weight: 600;
+}
+/* ===================================== 상품 공통 끝*/
+main section .main_all .main_top .main_top_product .main_right .main_product{
+}
+main section .main_all .main_top .main_top_product .main_right .product1{margin-right: 15px;}
+main section .main_all .main_top .main_top_product .main_right .product2{margin-right: 15px;}
+main section .main_all .main_top .main_top_product .main_right .product3{margin-right: 0;}/* 상품 개별 */
+main section .main_all .main_bottom{
+    width: 100%;
+}
+main section .main_all .main_bottom .main_bottom_t{
+    display: flex; justify-content: space-between;
+}
+main section .main_all .main_bottom .main_bottom_t h1{
+    margin-bottom: 14px;
+}
+main section .main_all .main_bottom .main_bottom_t a{}
+main section .main_all .main_bottom .main_bottom_product{
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+}
+main section .main_all .main_bottom .main_bottom_product>.product4{}
+main section .main_all .main_bottom .main_bottom_product .product5{}
+main section .main_all .main_bottom .main_bottom_product .product6{}
+main section .main_all .main_bottom .main_bottom_product .product7{}
+main section .main_all .main_bottom .main_bottom_product .product8{}
+main section .main_all .main_bottom .main_bottom_product .product9{}
+main section .main_all .main_bottom .main_bottom_product .product10{}
+

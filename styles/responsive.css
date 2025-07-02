@@ -1,0 +1,24 @@
+
+
+@media screen and (max-width:767px){ 
+    main section .main_all .main_top .main_top_product .main_right .main_text,
+    main section .main_all .main_top .main_top_product .main_right .product1,
+    main section .main_all .main_top .main_top_product .main_right .product2,
+    main section .main_all .main_top .main_top_product .main_right .product3,
+    main section .main_all .main_bottom .main_bottom_product .product7,
+    main section .main_all .main_bottom .main_bottom_product .product8,
+    main section .main_all .main_bottom .main_bottom_product .product9,
+    main section .main_all .main_bottom .main_bottom_product .product10{display: none;}
+    main section .main_all .product{
+    width: 100%;
+}
+main section .main_all .product .main_product{
+    margin-right: 10px;
+}
+main section .main_all .product .main_product:last-child{
+    margin-right: 0px;
+}
+main section .main_all .main_bottom .main_bottom_t h1{
+    margin-bottom: 10px;
+}
+}
